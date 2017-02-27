@@ -10,3 +10,8 @@ The container exposes the volume /calibre-lib, port 8080 and allows you to set a
 Example:
 
 docker run -d -p 8082:8080 -v /Calibre:/calibre-lib -e USER=calibre -e PASS=calibrepassword -e PREFIX=/calibre --name calibre-server agentgreen/calibre-server
+
+
+
+---------------
+Calibre Release: 2.80 [24 Feb, 2017]
