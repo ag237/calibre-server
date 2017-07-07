@@ -14,4 +14,4 @@ docker run -d -p 8082:8080 -v /Calibre:/calibre-lib -e USER=calibre -e PASS=cali
 
 
 ---------------
-Release: 2.85.1 [12 May, 2017]
+Release: 3.3 [07 Jul, 2017]
