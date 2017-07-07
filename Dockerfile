@@ -11,9 +11,7 @@ RUN mkdir -p /calibre-lib
 
 VOLUME ["/calibre-lib"]
 EXPOSE 8080
-ENV USER calibre
-ENV PASS calibre
 ENV PREFIX /
 
-CMD /opt/calibre/calibre-server --url-prefix $PREFIX --with-library=/calibre-lib --username=$USER --password=$PASS
+CMD /opt/calibre/calibre-server --url-prefix=$PREFIX --disable-auth --port=8080 "/calibre-lib" 
 
